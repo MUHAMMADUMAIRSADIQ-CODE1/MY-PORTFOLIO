@@ -61,7 +61,11 @@ a:hover {
   background-color: rgba(235, 227, 227, 0.5);
   border-radius: 8px;
   color: #9929FB;
+<<<<<<< HEAD
   cursor: pointer;
+=======
+    cursor: pointer;
+>>>>>>> 296ad183aad73d019f33fbda526546df63f75262
 }
 
 a:focus {
@@ -144,7 +148,11 @@ button {
   font-size: 18px;
   border-radius: 7px;
   padding: 20px 15px;
+<<<<<<< HEAD
   cursor: pointer;
+=======
+cursor: pointer;
+>>>>>>> 296ad183aad73d019f33fbda526546df63f75262
 }
 
 button:hover {
@@ -165,6 +173,7 @@ button:hover {
   text-decoration-color: rgba(255, 0, 0, 0.3);
   text-decoration-thickness: 6px;
 
+<<<<<<< HEAD
 }
 
 .boy {
@@ -181,4 +190,20 @@ button:hover {
   display: flex;
   flex-direction: row;
   gap: 5px;
+=======
+}.boy{
+  /* border: 1px solid; */
+  margin-top: 170px;
+  padding: 20px 50px;
+  background-color:  rgba(237, 153, 252, 0.2);
+    font-family: "work sans", sans-serif;
+    
+}
+
+
+#box{
+display: flex;
+flex-direction: row;
+gap: 5px;
+>>>>>>> 296ad183aad73d019f33fbda526546df63f75262
 }
