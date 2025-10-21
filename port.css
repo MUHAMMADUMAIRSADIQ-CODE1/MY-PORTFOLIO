@@ -193,3 +193,76 @@ button:hover {
     font-family: "work sans", sans-serif;
 
 }
+
+.outer {
+
+  background: linear-gradient(to right, #ffffff, #fdffff);
+  background: linear-gradient(to top, #ffffff, #fdffff);
+  padding: 50px; 
+  min-height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+
+.parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+  background: rgba(245, 39, 211, 0.61);
+  
+
+  border: 1px solid rgba(226, 13, 173, 0.15);
+  
+  
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  
+  border-radius: 20px;
+  padding: 20px 30px;
+  
+ 
+  box-shadow: 0 0 40px rgba(226, 10, 161, 0.8);
+}
+
+
+.image-box {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  border-radius: 15px;
+  margin: 10px;
+  border: none;
+}
+
+.image-box img {
+  width: 150px;
+  border-radius: 10px;
+}
+
+.text-box {
+  background: rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  border-radius: 15px;
+  margin: 10px;
+  color: white;
+  border: none;
+}
+
+
+.parent:hover {
+  transform: scale(1.02);
+  transition: 0.3s;
+}
+.image-box:hover {
+  transform: scale(1.02);
+  transition: 0.3s;
+}
+.text-box:hover {
+  transform: scale(1.02);
+  transition: 0.3s;
+}
