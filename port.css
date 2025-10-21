@@ -186,10 +186,10 @@ button:hover {
 }
 
 .boy {
-    /* border: 1px solid; */
+    border: 1px solid rgba(236, 28, 219, 0.288);
     margin-top: 170px;
     padding: 20px 50px;
-    background-color: rgba(237, 153, 252, 0.2);
+    background-color: rgba(236, 28, 219, 0.288);
     font-family: "work sans", sans-serif;
 
 }
