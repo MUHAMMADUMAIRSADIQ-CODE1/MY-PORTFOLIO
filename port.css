@@ -9,7 +9,11 @@
     /* border: 1px solid; */
     flex-direction: row;
     justify-content: space-between;
-
+  background-color: rgb(255, 251, 251);
+  position: fixed;
+  height: 70px;
+  width: 100vw;
+  z-index: 1000;
 }
 
 #under {
@@ -20,6 +24,9 @@
     margin-left: 28px;
     margin-top: 12px;
     /* border: 1px solid; */
+    position: fixed;
+    left: 0;
+    z-index: 1000;
 }
 
 #bold {
@@ -34,7 +41,9 @@
     /* border: 1px solid; */
     align-items: center;
     margin-top: 10px;
-
+position: fixed;
+    right: 0;
+    z-index: 1000;
 }
 
 a {
@@ -93,7 +102,7 @@ a:focus {
     /* border: 1px solid; */
     display: flex;
     flex-direction: column;
-    margin-top: 170px;
+    margin-top: 245px;
     margin-left: 25px;
 
 }
@@ -127,7 +136,7 @@ a:focus {
 }
 
 #im {
-    margin-top: 130px;
+    margin-top: auto;
     border-radius: 14px;
     margin-right: 16px;
     border: none;
