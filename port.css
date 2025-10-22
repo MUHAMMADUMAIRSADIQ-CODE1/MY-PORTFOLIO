@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-#profile-logo {
+.profile-logo {
 
     display: flex;
     /* border: 1px solid; */
@@ -215,7 +215,7 @@ button:hover {
 width: 800px;
 height: 400px;
 
-  background: rgba(245, 39, 211, 0.61);
+  background: rgba(245, 39, 211, 0.1);
   
 
   border: 1px solid rgba(226, 13, 173, 0.15);
@@ -301,7 +301,7 @@ height: 400px;
 
 
 .underbox {
-  background-color: rgba(245, 39, 211, 0.61);
+  background-color: rgba(245, 39, 211, 0.2);
   border: 1px solid black;
   padding: 20px;
   margin: 10px;
