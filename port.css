@@ -322,7 +322,7 @@ height: 400px;
    transform: scale(1.02);
   transition: 0.3s;
 }
-.main{
+.mainn{
      display: flex;
   justify-content: center;
   align-items: center;
