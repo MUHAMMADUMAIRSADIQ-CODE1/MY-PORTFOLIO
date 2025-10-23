@@ -436,36 +436,141 @@ button:hover {
   align-items: center;
   gap: 19px;
 }
-.ser{
+
+.ser {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  margin-top:130px ;
+  margin-top: 130px;
   padding: 100px 16px;
-   background: linear-gradient(to right, #d1830f, #2cb7b7);
+  background: linear-gradient(to right, #d1830f, #2cb7b7);
   background: linear-gradient(to top, #ffffff, #d6d6d6);
 }
-#dow{
+
+#dow {
   padding-top: 250px;
 }
-.serv{
+
+.serv {
   display: flex;
   flex-direction: column;
-  
+
   justify-content: center;
   align-items: center;
   /* text-align: center; */
-margin-top: 120px;
-  
+  margin-top: 120px;
+
 }
-.seru{
-  
+
+.seru {
+
   border-radius: 14px;
-  border:1px solid white ;
+  border: 1px solid white;
   background-color: white;
-    padding: 30px;
+  padding: 30px;
   margin-bottom: 30px;
-  }
-  .seru:hover{
- border-left: 6px solid rgb(255, 131, 7);
-  }
+}
+
+.seru:hover {
+  border-left: 6px solid rgb(255, 131, 7);
+}
+
+.fm {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: linear-gradient(to right, #d1830f, #2cb7b7);
+  background: linear-gradient(to top, #ffffff, #d6d6d6);
+  border-radius: 14px;
+  position: relative;
+  top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.foa {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 70px 90px;
+}
+
+.midd {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+
+}
+
+.mid {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid white;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 14px;
+
+}
+
+.mid:hover {
+  background-color: white;
+  box-shadow: 0px 5px 8px gray;
+}
+
+.sefo {
+  display: flex;
+  flex-direction: column;
+}
+
+.sf {
+  margin: 55px 170px 2px 0px
+}
+
+.last {
+  margin-top: 50px;
+}
+
+placeholder {
+  font-size: 18px;
+}
+
+input {
+  padding: 12px 340px 12px 3px;
+  border: 1px solid rgba(212, 83, 32, 0.9);
+
+}
+
+.space {
+  margin-bottom: 20px;
+
+}
+
+#bu {
+  padding: 12px 20px;
+}
+
+.footer {
+  background-color: #1b2b4d;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  z-index: -1;
+  /* padding-top: 100px; */
+}
+
+#imf {
+  padding: 100px 60px;
+}
+
+#imv {
+  padding: 100px 60px;
+}
+
+#cen {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #1b2b4d;
+}
