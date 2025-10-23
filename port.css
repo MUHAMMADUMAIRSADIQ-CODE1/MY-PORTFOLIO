@@ -436,3 +436,36 @@ button:hover {
   align-items: center;
   gap: 19px;
 }
+.ser{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top:130px ;
+  padding: 100px 16px;
+   background: linear-gradient(to right, #d1830f, #2cb7b7);
+  background: linear-gradient(to top, #ffffff, #d6d6d6);
+}
+#dow{
+  padding-top: 250px;
+}
+.serv{
+  display: flex;
+  flex-direction: column;
+  
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+margin-top: 120px;
+  
+}
+.seru{
+  
+  border-radius: 14px;
+  border:1px solid white ;
+  background-color: white;
+    padding: 30px;
+  margin-bottom: 30px;
+  }
+  .seru:hover{
+ border-left: 6px solid rgb(255, 131, 7);
+  }
