@@ -410,3 +410,29 @@ button:hover {
   margin: 0px 100px;
   padding: 100px 8px;
 }
+
+#bl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 70px;
+  background: linear-gradient(to right, #d1830f, #2cb7b7);
+  background: linear-gradient(to top, #ffffff, #d6d6d6);
+}
+
+#Blog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 19px;
+}
