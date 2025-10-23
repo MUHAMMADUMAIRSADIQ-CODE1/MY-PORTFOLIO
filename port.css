@@ -315,12 +315,12 @@ height: 400px;
   padding: 20px;
   margin: 10px;
   border-radius: 14px;
-   box-shadow: 0 0 40px rgba(96, 93, 95, 1);
+   
 }
 .underbox:hover{
-   
-   transform: scale(1.02);
-  transition: 0.3s;
+   box-shadow: 0 0 40px rgba(96, 93, 95, 0.5);
+   /* transform: scale(1.02);
+  transition: 0.3s; */
 }
 .mainn{
      display: flex;
