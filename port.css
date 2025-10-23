@@ -381,3 +381,14 @@ button:hover {
 .wor:hover {
   box-shadow: 0 0 40px rgba(96, 93, 95, 0.5);
 }
+
+#more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#mar {
+  margin-top: 50px;
+}
