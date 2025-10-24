@@ -536,8 +536,15 @@ placeholder {
 
 input {
   padding: 12px 340px 12px 3px;
-  border: 1px solid rgba(212, 83, 32, 0.9);
-
+  border: 1px solid white;
+  border-radius: 10px;
+}
+::placeholder{
+  padding-left: 10px;
+}
+input:focus{
+  border: 1px solid black;
+  
 }
 
 .space {
