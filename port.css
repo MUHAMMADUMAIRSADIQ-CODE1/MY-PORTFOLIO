@@ -543,8 +543,9 @@ input {
   /* padding-left: 10px; */
 }
 input:focus{
-  border: 1px solid black;
-  
+  border: 1px solid rgb(44, 43, 43) !important;
+  outline: none;
+  box-shadow: 1px 1px 4px rgb(44, 43, 43);
 }
 
 .space {
