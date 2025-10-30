@@ -535,12 +535,12 @@ placeholder {
 }
 
 input {
-  padding: 12px 340px 12px 3px;
+  padding: 12px 340px 12px 10px;
   border: 1px solid white;
   border-radius: 10px;
 }
 ::placeholder{
-  padding-left: 10px;
+  /* padding-left: 10px; */
 }
 input:focus{
   border: 1px solid black;
